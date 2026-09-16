@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.cache/
+
+# Models, adapters, and experiment outputs
+outputs/
+checkpoints/
+experiments/
+logs/
+wandb/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Local datasets
+data/*
+!data/README.md
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

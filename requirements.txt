@@ -1,0 +1,7 @@
+accelerate>=0.24,<1.0
+datasets==2.16.1
+numpy==1.26.3
+sentencepiece==0.1.99
+torch>=2.0.1
+tqdm==4.65.0
+transformers==4.35.2
